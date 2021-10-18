@@ -134,7 +134,8 @@ body{
     height: 40px;
     background-color: #FFF;
     padding: 10px;
-    border-top: 1px solid rgba(0,0,0,0.1);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 
 .add-to-do i{
@@ -149,7 +150,7 @@ body{
     height: 35px;
     width: 310px;
     background-color: rgb(236, 236, 236);
-    border-radius: 8px;
+    border-radius: 20px;
     border: none !important;
     font-size: 15px;
     padding-left: 10px;
