@@ -102,9 +102,9 @@ body{
     position: absolute;
     padding: 0;
     margin: 0;
-    font-size: 20px;
+    font-size: 15px;
     left: 50px;
-    top: 8px;
+    top: 13px;
     background-color: #FFF;
     max-width: 285px;
 }
@@ -119,6 +119,7 @@ body{
     font-size: 25px;
     right: 15px;
     top: 10px;
+    color: #cccccc;
 }
 
 .item i.de:hover{
@@ -140,6 +141,7 @@ body{
     position: absolute;
     font-size: 40px;
     color: #83743a;
+    top: 8px;
 }
 
 .add-to-do input{
@@ -148,34 +150,34 @@ body{
     height: 35px;
     width: 310px;
     background-color: rgb(236, 236, 236);
-    border-radius: 10px;
-    border: none;
-    font-size: 20px;
+    border-radius: 8px;
+    border: none !important;
+    font-size: 15px;
     padding-left: 10px;
 }
 
 .add-to-do input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-    color: #000;
+    color: rgb(126, 126, 126);
     font-family: 'nunito';
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .add-to-do input::-moz-placeholder { /* Firefox 19+ */
-    color: #000;
+    color: rgb(126, 126, 126);
     font-family: 'nunito';
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .add-to-do input:-ms-input-placeholder { /* IE 10+ */
-    color: #000;
+    color: rgb(126, 126, 126);
     font-family: 'nunito' ;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .add-to-do input:-moz-placeholder { /* Firefox 18- */
-    color: #000;
+    color: rgb(126, 126, 126) ;
     font-family: 'nunito';
-    font-size: 20px;
+    font-size: 15px;
 }
 
 
