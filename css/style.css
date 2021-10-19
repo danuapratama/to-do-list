@@ -140,7 +140,7 @@ body{
 
 .add-to-do i{
     position: absolute;
-    font-size: 42px;
+    font-size: 45px;
     color: #83743a;
 }
 
@@ -155,31 +155,6 @@ body{
     font-size: 15px;
     padding-left: 10px;
 }
-
-.add-to-do input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-    color: rgb(126, 126, 126);
-    font-family: 'nunito';
-    font-size: 15px;
-}
-
-.add-to-do input::-moz-placeholder { /* Firefox 19+ */
-    color: rgb(126, 126, 126);
-    font-family: 'nunito';
-    font-size: 15px;
-}
-
-.add-to-do input:-ms-input-placeholder { /* IE 10+ */
-    color: rgb(126, 126, 126);
-    font-family: 'nunito' ;
-    font-size: 15px;
-}
-
-.add-to-do input:-moz-placeholder { /* Firefox 18- */
-    color: rgb(126, 126, 126) ;
-    font-family: 'nunito';
-    font-size: 15px;
-}
-
 
 
 
