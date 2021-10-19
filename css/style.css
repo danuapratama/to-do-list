@@ -87,7 +87,7 @@ body{
     font-size: 25px;
     padding-left: 5px;
     left: 15px;
-    top: 10px;
+    top: 11px;
 }
 
 .item i.co:hover{
@@ -140,14 +140,14 @@ body{
 
 .add-to-do i{
     position: absolute;
-    font-size: 40px;
+    font-size: 42px;
     color: #83743a;
 }
 
 .add-to-do input{
     position: absolute;
     left: 50px;
-    height: 35px;
+    height: 40px;
     width: 310px;
     background-color: rgb(236, 236, 236);
     border-radius: 20px;
