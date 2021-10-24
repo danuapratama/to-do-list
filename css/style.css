@@ -182,5 +182,6 @@ body {
 
   .add-to-do {
     border-radius: 0;
+    padding: 20px 0;
   }
 }
