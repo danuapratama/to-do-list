@@ -178,6 +178,7 @@ body {
   
   .item p.text {
     font-size: 14px;
+    top: 14px;
   }
 
   .add-to-do {
