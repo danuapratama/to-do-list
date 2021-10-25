@@ -38,13 +38,12 @@ body {
 .clear i {
   font-size: 30px;
   color: #fff;
+  text-decoration: overline;
 }
 
 .clear i:hover {
   cursor: pointer;
   color: #f10000;
-  transform: rotate(90deg);
-  transition: ease 0.4s;
 }
 
 #date {
@@ -112,6 +111,8 @@ body {
   top: 13px;
   background-color: #fff;
   max-width: 285px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .lineThrough {
@@ -163,7 +164,6 @@ body {
   position: absolute;
   margin-left: 34rem;
 }
-
 
 @media (max-width: 550px) {
   .container {
