@@ -63,7 +63,7 @@ function addToDo(toDo, id, done, trash) {
                     <i class="fa fa-trash-o de" job="delete" id="${id}"></i>
                   </li>
                 `;
-
+                
   const position = 'beforeend';
 
   list.insertAdjacentHTML(position, item);

@@ -115,6 +115,15 @@ body {
   text-overflow: ellipsis;
 }
 
+/* --- is not working - (no javascript) --- */
+.item p.calendar {
+  position: relative;
+  font-size: 15px;
+  left: 40px;
+  top: 16px;
+}
+/* --- end --- */
+
 .lineThrough {
   text-decoration: line-through;
   color: #ccc;
@@ -134,7 +143,7 @@ body {
 }
 
 /* ------------ add item ------------ */
-.add-time {
+.add-calendar {
   position: absolute;
   margin-top: -60px;
   left: 0;
@@ -160,10 +169,10 @@ body {
   height: 55px;
   width: 90%;
   background-color: rgb(236, 236, 236);
-  border-radius: 30px;
+  border-radius: 15px;
   border: none !important;
   font-size: 17px;
-  text-align: center;
+  padding:  0 15px;
   margin: auto;
   left: 0;
   right: 0;
@@ -196,7 +205,7 @@ body {
     padding: 20px 0;
   }
 
-  .add-time {
+  .add-calendar {
     margin-top: -40px;
   }
 }
