@@ -9,7 +9,7 @@ body {
 .container {
   padding-top: 10px;
   bottom: 5px;
-  width: 90%;
+  width: 60%;
   margin: 0 auto;
   position: relative;
 }
@@ -115,7 +115,7 @@ body {
   text-overflow: ellipsis;
 }
 
-/* --- is not working - (no javascript) --- */
+/* --- This is not working ([-] javascript) --- */
 .item p.calendar {
   position: relative;
   font-size: 15px;
@@ -145,7 +145,7 @@ body {
 /* ------------ add item ------------ */
 .add-calendar {
   position: absolute;
-  margin-top: -60px;
+  margin-top: -50px;
   left: 0;
   right: 0;
   justify-content: center;
@@ -172,16 +172,11 @@ body {
   border-radius: 15px;
   border: none !important;
   font-size: 17px;
-  padding:  0 15px;
+  padding:  0 7px;
   margin: auto;
   left: 0;
   right: 0;
   bottom: 20px;
-}
-
-.add-to-do i{
-  position: absolute;
-  margin-left: 34rem;
 }
 
 @media (max-width: 550px) {
@@ -206,6 +201,6 @@ body {
   }
 
   .add-calendar {
-    margin-top: -40px;
+    margin-top: -30px;
   }
 }
