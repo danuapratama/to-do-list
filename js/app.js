@@ -35,7 +35,7 @@ function loadList(array) {
 
 // clear the local storage
 clear.addEventListener('click', function () {
-  var result = confirm('😲 Are you sure you want to delete all to-do lists?');
+  var result = confirm('🤔 Are you sure you want to delete all to-do lists?');
   if (result) {
     localStorage.clear();
     location.reload();
