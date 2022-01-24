@@ -35,8 +35,11 @@ function loadList(array) {
 
 // clear the local storage
 clear.addEventListener('click', function () {
-  localStorage.clear();
-  location.reload();
+  var result = confirm('😲 Are you sure you want to delete all to-do lists?');
+  if (result) {
+    localStorage.clear();
+    location.reload();
+  }
 });
 
 // Show todays date
@@ -61,7 +64,7 @@ function addToDo(toDo, id, done, trash) {
                     <i class="fa fa-trash-o de" job="delete" id="${id}"></i>
                   </li>
                 `;
-                
+
   const position = 'beforeend';
 
   list.insertAdjacentHTML(position, item);
