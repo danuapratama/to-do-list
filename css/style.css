@@ -9,7 +9,7 @@ body {
 .container {
   padding-top: 30px;
   bottom: 5px;
-  width: 500px;
+  width: 60%;
   margin: 0 auto;
   position: relative;
 }
@@ -31,7 +31,7 @@ body {
   position: absolute;
   width: 80px;
   right: 20px;
-  top: 20px;
+  margin-top: 20px;
   text-align: center;
   background: rgb(255, 230, 1);
   border-radius: 5px;
