@@ -1,7 +1,7 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: #878d68;
+  background-image: url('../img/gradient.jpg');
   font-family: 'nunito';
 }
 
@@ -27,25 +27,28 @@ body {
   justify-content: center;
 }
 
-.clear {
-  width: 90px;
-  height: 90px;
+.btn-clear {
   position: absolute;
-  right: 2px;
+  width: 80px;
+  right: 20px;
   top: 20px;
+  text-align: center;
+  background: rgb(255, 230, 1);
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.btn-clear:hover {
+  background: #f6d410;
 }
 
 .clear i {
   font-size: 15px;
+  font-weight: bold;
+  font-style: normal;
   font-family: 'nunito';
-  color: #fff;
-  text-decoration: underline;
-}
-
-.clear i:hover {
-  cursor: pointer;
-  color: rgb(255, 231, 19);
-  text-decoration: underline rgb(255, 231, 19);
+  color: #000;
 }
 
 #date {
@@ -181,6 +184,7 @@ body {
   background-color: rgb(236, 236, 236);
   border-radius: 15px;
   border: none !important;
+  outline: none !important;
   font-size: 17px;
   padding:  0 7px;
   margin: auto;
