@@ -139,12 +139,11 @@ body {
   position: absolute;
   font-size: 25px;
   right: 15px;
-  top: 6px;
   color: #000000;
   background: #cccc;
   width: 25px;
   padding: 4px;
-  margin: 0 0 4px 0;
+  margin: 6px 0 4px 0;
   border-radius: 5px;
   text-align: center;
   align-items: center;
