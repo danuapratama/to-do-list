@@ -35,7 +35,7 @@ function loadList(array) {
 
 // clear the local storage
 clear.addEventListener('click', function () {
-  var result = confirm('🤔 Are you sure you want to delete all to-do lists?');
+  var result = confirm('You want to delete all? 🤔');
   if (result) {
     localStorage.clear();
     location.reload();
@@ -49,7 +49,6 @@ const today = new Date();
 dateElement.innerHTML = today.toLocaleDateString('en-US', options);
 
 // add to do function
-
 function addToDo(toDo, id, done, trash) {
   if (trash) {
     return;
@@ -112,7 +111,6 @@ function removeToDo(element) {
 }
 
 // target the items created dynamically
-
 list.addEventListener('click', function (event) {
   const element = event.target; // return the clicked element inside list
   const elementJob = element.attributes.job.value; // complete or delete

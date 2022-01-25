@@ -21,7 +21,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  border-radius: 25px 25px 0 0;
+  border-radius: 20px 20px 0 0;
   position: relative;
   justify-content: center;
 }
@@ -107,12 +107,14 @@ body {
 }
 
 .item p.text {
+  font-size: 15px;
+  font-weight: 600;
   position: absolute;
   padding: 0;
   margin: 0;
   font-size: 15px;
   left: 40px;
-  top: 13px;
+  top: 12px;
   background-color: #fff;
   max-width: 285px;
   overflow: hidden;
@@ -137,13 +139,22 @@ body {
   position: absolute;
   font-size: 25px;
   right: 15px;
-  top: 10px;
-  color: #cccccc;
+  top: 5px;
+  color: #000000;
+  background: #cccc;
+  width: 25px;
+  padding: 4px;
+  margin: 0 0 4px 0;
+  border-radius: 5px;
+  text-align: center;
+  align-items: center;
+  cursor: pointer;
 }
 
 .item i.de:hover {
-  color: #f10000;
-  cursor: pointer;
+  background: #f6d410;
+  width: 100%;
+  text-align: right;
 }
 
 /* ------------ add item ------------ */
@@ -171,8 +182,7 @@ body {
   height: 25px;
   background-color: #fff;
   padding: 10px 0;
-  border-bottom-right-radius: 25px;
-  border-bottom-left-radius: 25px;
+  border-radius: 0 0 20px 20px;
   box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.3);
 }
 
