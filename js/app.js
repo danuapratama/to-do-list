@@ -1,4 +1,5 @@
 // Select the Elements
+const about = document.querySelector('.about');
 const clear = document.querySelector('.clear');
 const dateElement = document.getElementById('date');
 const list = document.getElementById('list');
@@ -33,7 +34,15 @@ function loadList(array) {
   });
 }
 
-// clear the local storage
+// button about us
+about.addEventListener('click', function () {
+  var result = alert('To-do List app is an app with local server storage on your device. No data is stored and known by the developer of this application. Thanks from the developer of the To-do List app. (by Danu Pratama)');
+  if (result) {
+    closed()
+  }
+});
+
+// button clear the local storage
 clear.addEventListener('click', function () {
   var result = confirm('You want to delete all? 🤔');
   if (result) {
