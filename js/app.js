@@ -34,13 +34,13 @@ function loadList(array) {
   });
 }
 
-// button about us
-about.addEventListener('click', function () {
-  var result = alert('To-do List app is an app with local server storage on your device. No data is stored and known by the developer of this application. Thanks from the developer of the To-do List app. (Danu Pratama)');
-  if (result) {
-    closed()
-  }
-});
+// // button about us
+// about.addEventListener('click', function () {
+//   var result = alert('To-do List app is an app with local server storage on your device. No data is stored and known by the developer of this application. Thanks from the developer of the To-do List app. (Danu Pratama)');
+//   if (result) {
+//     closed()
+//   }
+// });
 
 // button clear the local storage
 clear.addEventListener('click', function () {

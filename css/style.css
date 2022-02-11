@@ -168,8 +168,7 @@ body {
 }
 
 .item i.de:hover {
-  background: #1074f6;
-  color: #fff;
+  background: rgb(255, 230, 1);
   width: 100%;
   text-align: right;
 }
@@ -224,6 +223,13 @@ body {
     overflow: hidden;
   }
 
+  .btn-about,
+  .btn-clear,
+  .item i.de,
+  .item i.co {
+    cursor: default !important;
+  }
+  
   .container {
     width: 100%;
     padding: 0;
